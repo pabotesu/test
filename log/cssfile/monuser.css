@@ -1,0 +1,92 @@
+body{
+    background-color: #f9f1e6;
+    padding: 0 2%;
+    padding-bottom: 30px;
+}
+.welcome-demo{
+    background-color: transparent;
+    border:none;
+}
+/************************USER_INFO*******************/
+.userProfile img{
+    max-height: 100px;
+}
+.userInfo,#graph-content,.sentaku{
+    border: 5px solid darkcyan;
+    padding: 30px 0;
+    min-height: 400px;
+    border-radius: 5px;
+    /********clearfix********/
+    overflow: auto;
+    /********背景************/
+    background-image: url('../../images/top-rightbg.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.user-title{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: darkcyan;
+    font-size: 30px;
+    max-width: 300px;
+}
+.userInfo{
+    color: darkcyan;
+    padding: 20px;
+    width: 100%;
+}
+.userName *{
+    text-align: center;
+    padding: 10px;
+}
+/***********************RESULT*********************/
+#graph-content{
+    padding-top: 20px;
+}
+#selected{
+    /*************先生別の選択**************/
+    color: white;
+    background: darkcyan;
+}
+select{
+   text-align-last: center;
+   color: white;
+   background: darkcyan;
+   border: 3px solid darkcyan;
+   font-size: 14px;
+   height: 29px;
+   width: 268px;
+}
+select option{
+    background: white;
+    color: darkcyan;
+}
+.charts{
+    position: relative;
+    margin-left: 10%;
+}
+.userProfile img{
+    border: 3px solid darkcyan;
+    border-radius: 50%;
+}
+/********************科目選択のイメージボタン*************/
+.image-collection{
+    padding: 10px;
+    text-align: center;
+}
+.image-collection img{
+    cursor: pointer;
+    margin: 20px;
+    border: 3px solid darkcyan;
+    border-radius: 20px;
+}
+.image-collection img:hover{
+    border-color: orange;
+}
+/******** レスポンシブ *********/
+@media only screen and (max-width:800px){
+    .charts{
+        margin-left: 10%;
+    }
+}

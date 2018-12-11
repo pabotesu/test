@@ -1,0 +1,116 @@
+::-webkit-scrollbar {
+    visibility: hidden;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #e0a435;
+}
+body{
+    background: #fff5e2;
+}
+.wrapper{
+    margin: 50px 15%;
+}
+.logo,.tableTitle{
+    position: relative;
+    text-align: center;
+}
+.tableTitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e0a435;
+    border: 2px solid #e0a435;
+    border-radius: 10px;
+}
+/***************************/
+label{
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    color: #4f3300;
+    padding: 10px;
+    text-align: center;
+    height: 60px;
+    border: 1px solid #bf7b00;
+}
+td.id:hover{
+    cursor: pointer;
+    color: grey;
+}
+th{
+    height: 50px;
+    color: white;
+    background: #e0a435;
+}
+.smallCol{
+    padding: 0 10px; 
+    width: 60px;
+}
+/**********inputForm@INDEX***********/
+.downButton{
+    position: relative;
+    padding: 0 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.downButton p{
+    cursor: pointer;
+    font-size: 20px;
+    color: #e0a435;
+    border: 1px solid #e0a435;
+    border-radius: 5px;
+}
+.downButton p:hover{
+    transition: .5s;
+    background: #e0a435;
+    color: white;
+}
+#fill{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #bf7b00;
+    border-radius: 5px;
+}
+/***************************/
+.save{
+    background: grey;
+}
+/***************************/
+.form-toko{
+    margin: 0 15%;
+}
+form{
+    margin-top: 5px;
+}
+/****************mondaiTable************/
+.base{
+    height: 40px;
+}
+input.tuika{
+    border: 1px solid #e0a435;
+    border-radius: 5px;
+    color: white;
+    background: #e0a435;
+}
+input.tuika:hover{
+    transition: .5s;
+    background-color: rgba(255,255,255,.3);
+    color: #e0a435;
+}
+/************UPDATE TABLE***************/
+label[for="mondai"]{
+    font-size: 40px;
+}
+label[for^="kai"],.monBan{
+    font-size: 20px;
+}

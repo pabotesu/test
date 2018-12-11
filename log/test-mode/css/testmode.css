@@ -1,0 +1,125 @@
+body{
+    background-color: #f9f1e6;
+    /********背景************/
+    background-image: url('../../../images/top-rightbg.png');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: right top;
+}
+.welcome-demo{
+    border: none;
+    background-color: transparent;
+}
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/***********Wrapper***************************/
+.wrapper{
+    padding: 50px 25%;
+    position: relative;
+    min-width: 200px;
+    max-width: 100%;
+}
+.wrapper h2{
+    text-align: center;
+    color: darkcyan;
+}
+/*************問題 + 答えの表示***************************/
+.mondai,.kotae{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.mondai{
+    background: darkcyan;
+    color: white;
+}
+.kotae{
+    position: relative;
+    background: rgba(255,255,255,0.7);
+    border: 1px solid darkcyan;
+}
+.kotae-button,.operation-button{
+    margin-top: 20px;
+    text-align: center;
+}
+/****************答えボータン************************/
+button, input[type='submit']{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    color: white;
+    background: darkcyan;
+}
+.boBox{
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+}
+.boBox-b{
+    padding: 5px;
+    margin: 5px;
+    width: 30px;
+}
+.boBox-b:hover{
+    background-color: grey;
+}
+.openBobox{
+    font-size: 15px;
+    width: 80px;
+    text-align: center;
+    margin-top: 5px;
+    color: darkcyan;
+    cursor: pointer;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
+.closeBobox{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: -25px;
+    cursor: pointer;
+}
+.selected{
+    color: white;
+    background-color: #e0a435;
+}
+input[type='submit']:hover{
+    color: white;
+    background: red;
+}
+input[name="seikai"]{
+    width: 50px;
+}
+.topmodoru a{
+    text-decoration: none;
+    font-size: 15px;
+    color: darkcyan;
+}
+/*******************test.php タイマー*********************/
+.rTime{
+    padding: 10px; 
+    text-align: center;
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    margin: 0 30%;
+    
+}
+/*****************レスポンシブ**********************/
+@media only screen and (max-width:600px){
+    .wrapper{
+        padding: 0 3%;
+    }
+}
+/*****************************************************/

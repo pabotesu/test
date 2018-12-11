@@ -1,0 +1,25 @@
+body{
+    background-color: #f9f1e6;
+    /********背景************/
+    background-image: url('../../../images/top-rightbg.png');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: right top;
+}
+.wrapper{
+    padding: 20px;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+}
+.search{
+    margin: 0 25%;
+}
+.active-cyan input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid darkcyan;
+}
+/************table form******************/
+.middle{
+    text-align: center;
+}
